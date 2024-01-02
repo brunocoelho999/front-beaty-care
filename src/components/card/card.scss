@@ -1,0 +1,111 @@
+.cares-card {
+  list-style: none;
+  margin: 1rem;
+}
+
+.card-container {
+  background-color: #fff;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+
+  .card-image-container {
+    overflow: hidden;
+    max-height: 200px;
+
+    .img-cares {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .card-info-container {
+    padding: 1rem;
+
+    .card-type-container {
+      text-align: center;
+      button {
+        background-color: #3498db;
+        color: #fff;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 0.3rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+          background-color: #2980b9;
+        }
+      }
+    }
+
+    .card-name-container {
+      margin-top: 1rem;
+
+      .card-name {
+        font-size: 1.5rem;
+        color: #333;
+        text-align: center;
+      }
+    }
+
+    .card-price-container {
+      margin-top: 0.5rem;
+      text-align: center;
+
+      .card-price {
+        color: #777;
+      }
+    }
+
+    .buttons-news {
+      margin-top: 1rem;
+
+      .inputs-admin {
+        width: 100%;
+        padding: 0.8rem;
+        margin-bottom: 0.5rem;
+        border: 0.1rem solid #ccc;
+        border-radius: 0.3rem;
+      }
+
+      .buttons-admin {
+        background-color: #27ae60;
+        color: #fff;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 0.3rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+          background-color: #219d54;
+        }
+      }
+    }
+
+    .admin-buttons-card {
+      margin-top: 1rem;
+
+      .buttons-admin {
+        background-color: #e74c3c;
+        color: #fff;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 0.3rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+          background-color: #c0392b;
+        }
+
+        &:first-child {
+          margin-right: 0.5rem;
+        }
+      }
+    }
+  }
+}
