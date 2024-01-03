@@ -58,7 +58,7 @@ npm install
 npm run dev
 ```
 ## Autor
-### Bruno Coelho (brunocoelho999)
+- Bruno Coelho (brunocoelho999)
 
 
 
