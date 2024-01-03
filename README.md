@@ -1,63 +1,63 @@
-# MVP Bruno Beauty Care - Plataforma de Cuidados Estéticos Femeninos
+# MVP Bruno Beauty Care - Female Aesthetic Care Platform
 
-## Descripción del Proyecto
+## Project Description
 
-Bruno Beauty Care es un proyecto centrado en proporcionar servicios y cuidados estéticos femeninos. Desarrollado como parte de nuestro compromiso con la excelencia en el mundo de la belleza, la aplicación ofrece una plataforma integral para explorar, registrar y gestionar diversos servicios de cuidado estético.
+Bruno Beauty Care is a project focused on providing female aesthetic services and care. Developed as part of our commitment to excellence in the beauty world, the application offers a comprehensive platform to explore, register, and manage various aesthetic care services.
 
-## Funcionalidades Principales
+## Key Features
 
-### Registro y Login de Usuarios
+### User Registration and Login
 
-La aplicación presenta un sistema de registro y login que permite a los usuarios gestionar sus cuentas de manera segura y personalizada.
+The application features a user registration and login system that allows users to manage their accounts securely and personalized.
 
-### Lista de Cuidados Estéticos
+### Aesthetic Care Services List
 
-Los usuarios pueden explorar la lista completa de cuidados estéticos disponibles en Bruno Beauty Care, proporcionando una visión detallada de cada servicio.
+Users can explore the complete list of aesthetic care services available on Bruno Beauty Care, providing a detailed overview of each service.
 
-### Funcionalidades de Administrador
+### Administrator Features
 
-Los administradores disfrutan de privilegios exclusivos, incluyendo la capacidad de:
+Administrators enjoy exclusive privileges, including the ability to:
 
-- Crear nuevos cuidados estéticos.
-- Modificar información de cuidados existentes.
-- Eliminar servicios de la plataforma.
+- Create new aesthetic care services.
+- Modify information of existing services.
+- Remove services from the platform.
 
-### Detalles del Cuidado Estético
+### Aesthetic Care Details
 
-Ambos tipos de usuarios pueden acceder a detalles específicos de cada cuidado estético, incluyendo sus características y requisitos. Se ha implementado un filtro para facilitar la búsqueda por tipos de los servicios.
+Both types of users can access specific details of each aesthetic care service, including its features and requirements. A filter has been implemented to facilitate searching by service types.
 
-## Tecnologías Utilizadas
+## Technologies Used
 
 **MERN Stack:**
 
-- MongoDB con Mongoose (Backend)
+- MongoDB with Mongoose (Backend)
 - Express (Backend)
 - React (Frontend)
 - Node (Backend)
 
-## Instrucciones de Ejecución
+## Execution Instructions
 
-Antes de ejecutar el backend de la aplicación, asegúrese de tener instaladas las siguientes dependencias:
+Before running the application's backend, make sure you have the following dependencies installed:
 
-1. **Node.js:** Descargar e instalar Node.js.
-2. **MongoDB:** Descargar e instalar MongoDB.
+1. **Node.js:** Download and install Node.js.
+2. **MongoDB:** Download and install MongoDB.
 
-### Configuración del Frontend
+### Frontend Configuration
 
-1. **Clone el repositorio:**
+1. **Clone the repository:**
 
 ```bash
 git clone https://github.com/brunocoelho999/front-beauty-care
 ```
-2. **Instale las dependencias:**
+2. **Install dependencies:**
 ```bash
 npm install
 ```
-3. **Inicie el servidor:**
+3. **Start the server:**
 ```bash
 npm run dev
 ```
-## Autor
+## Author
 - Bruno Coelho (brunocoelho999)
 
 
